@@ -1,0 +1,75 @@
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+	background-image: url(img/background.jpg);
+	background-position: 0px;
+}
+h1
+{
+	background-color: green;
+	background-size: 400px;
+	font-size: 50px;
+
+}
+nav
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+	background-color: green;
+
+}
+li, ul
+{
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+section
+{
+    float:left;
+}
+#main
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    float: left;
+	background: grey;
+}
+#product
+{
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#slider-button
+{
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+}
